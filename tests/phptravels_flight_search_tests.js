@@ -16,7 +16,7 @@ describe('Phptravels', () => {
         const phpSearchTravels = phptravelsPage.submitSearch();
 
         assert.isFalse(
-            phpSearchTravels.isEmptyList(),
+            phpSearchTravels.isEmptyList,
             'Search list is empty',
         );
     });
